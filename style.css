@@ -1,0 +1,118 @@
+/* Colors and font */
+body {
+	background: #eaeaea;
+	color: rgb(50, 50, 50);
+	font-family: 'Bree Serif', serif;
+	font-size: 16px;
+}
+h1, h2, h3 {
+	 font-family: 'Roboto', sans-serif;
+}
+h1 {
+	color: #ed4d6e;
+	font-size: 32px;
+	font-weight: 900;
+	font-weight: bold;
+}
+h2 {
+	color: #4d6a6d;
+	font-size: 24px;
+	font-weight: bold;
+	font-weight: 550;
+
+}
+a {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: #e63462;
+	font-weight: 500;
+	font-size: 16px;
+}
+a:hover {
+	color: #4a051c;
+}
+
+/* Custom design with class (99% design remaining) */
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.profil_image {
+	border-radius: 50%;
+}
+
+.btn-pink {
+	background-color: #0B7488;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 4px;
+}
+.btn-pink:hover {
+	background-color: white;
+	color: #e63462;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+}
+.list-inline i:hover {
+	color: rgb(230, 230, 230);
+}
+
+/* Designe adjustments using id (1% design remaining) */
+#introduction p {
+	margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
